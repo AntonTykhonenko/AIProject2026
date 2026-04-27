@@ -35,3 +35,10 @@ htmlcov/
 
 # VS Code workspace settings (optional; keep shared settings if needed)
 .vscode/
+
+        
+Data/Csv/
+Data/FramesFromCsv/
+Data/LabelsFromCsv/
+Data/PreviewFromCsv/
+Data/Video/
