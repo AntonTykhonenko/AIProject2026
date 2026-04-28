@@ -1,9 +1,9 @@
-path: /Users/artemsaltanovskyi/Documents/2025-2026-2/2MCTE2-Advancded_AI/exam/AIProject2026/Data/Dataset
+path: /content/drive/MyDrive/Dataset
 train: images/train
 val: images/val
 test: images/test
 
 names:
-  0: bus
-  1: car
+  0: car
+  1: bus
   2: truck
