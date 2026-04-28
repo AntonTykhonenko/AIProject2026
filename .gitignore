@@ -36,6 +36,18 @@ htmlcov/
 # VS Code workspace settings (optional; keep shared settings if needed)
 .vscode/
 
+# Project-specific directories
+CSV/
+FramesFromCSV/
+LabelsFromCSV/
+PreviewFromCSV/
+Video/
+
+# Large files and generated outputs
+*.mp4
+*.MP4
+*.avi
+*.mov
         
 Data/Csv/
 Data/FramesFromCsv/
