@@ -48,17 +48,16 @@ Video/
 *.MP4
 *.avi
 *.mov
-        
-Data/Csv/
-Data/FramesFromCsv/
-Data/LabelsFromCsv/
-Data/PreviewFromCsv/
-Data/Video/
-Data/Dataset/images/test/
-Data/Dataset/images/train/
-Data/Dataset/images/val/
-Data/Dataset/labels/test/
-Data/Dataset/labels/train/
-Data/Dataset/labels/val/
+# Keep Data folder structure, but do not track dataset contents
+/Data/**
+!/Data/**/
+!/Data/**/.gitkeep
+
+
 
 Models/Results/predict/
+
+# Keep predict_by_pretrained folder structure, but do not track prediction outputs
+/Task02/Task02_PreLabeledDataset/Results/predict_by_pretrained/**
+!/Task02/Task02_PreLabeledDataset/Results/predict_by_pretrained/**/
+!/Task02/Task02_PreLabeledDataset/Results/predict_by_pretrained/**/.gitkeep
